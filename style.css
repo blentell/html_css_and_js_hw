@@ -1,0 +1,50 @@
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: red;
+	color: white;
+	margin-bottom: 30px;
+	height: 30px;
+}
+.logo {
+	margin-left: 20px;
+}
+.menu {
+	margin-right: 20px;
+}
+#counter {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 30px;
+	height: 50px;
+}
+.add {
+	align-self: center;
+	height: 25px;
+	margin-right: 20px;
+}
+.remove {
+	align-self: center;
+	height: 25px;
+	margin-left: 20px;
+}
+.number {
+	align-self: center;
+	font-size: 40px;
+	align-items: center;
+}
+#stars {
+	display: flex;
+	justify-content: center;
+  width: 400px;
+  flex-wrap: wrap;
+}
+
+.starIMG {
+	width: 40px;
+	height: 40px;
+	border: 2px solid orange;
+	border-radius: 30%;
+	padding: 5px;
+}
