@@ -17,11 +17,13 @@ remove.addEventListener("click", () => {
 });
 add.addEventListener("click", () => {
 	updateCounter(counter + 1);
+	if (counter > 0) {
 	stars.appendChild(StarComponent());
+	}
 });
 
 const StarComponent = () => {
-	if (counter > 0) {
+	
 		const starsImage = document.createElement("div");
 		starsImage.innerHTML = `
   <img
@@ -30,5 +32,5 @@ const StarComponent = () => {
   alt=""
   />`;
 		return starsImage;
-	}
+	
 };
